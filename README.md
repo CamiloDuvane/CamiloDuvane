@@ -963,7 +963,7 @@ input, button {
       <div class="certifications">
         <h4>Certificações</h4>
         <ul>
-          <li>Licenciatura Contabilidade e Auditoria- Universidade São Tomás de Moçambique</li>
+          <li>Licenciatura em Contabilidade e Auditoria- Universidade São Tomás de Moçambique</li>
           <li>Mestrado em Administração e Gestão Escolar - USTM</li>
           <li>Certificado em Metodologias de Ensino - UP</li>
         </ul>
