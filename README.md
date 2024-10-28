@@ -1,4 +1,4 @@
-<html><head><base href="https://ustm.ac.mz">
+<html><head><base href="https://camiloduvane.github.io/CamiloDuvane/">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CWD - Camilo Wiliamo Duvane</title>
