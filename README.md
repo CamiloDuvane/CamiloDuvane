@@ -929,8 +929,8 @@ input, button {
         <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
           <h3 style="color: var(--secondary); margin-bottom: 10px;">BCI</h3>
           <p><strong>Titular:</strong> Camilo Wiliamo Duvane</p>
-          <p><strong>Nº da Conta:</strong> 1234567890</p>
-          <p><strong>NIB:</strong> 000800001234567890180</p>
+          <p><strong>Nº da Conta:</strong> Em actualização</p>
+          <p><strong>NIB:</strong> Em actualização</p>
         </div>
         
         <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
@@ -956,7 +956,6 @@ input, button {
         <p><strong>Email:</strong> camilowilliam0@gmail.com</p>
         <div class="social-links">
           <a href="https://facebook.com/camilowilliam.duvane">Facebook</a>
-          <a href="https://twitter.com/camilowilliam.duvane">Twitter</a>
           <a href="https://www.instagram.com/cwd_record/">Instagram</a>
         </div>
       </div>
@@ -964,7 +963,7 @@ input, button {
       <div class="certifications">
         <h4>Certificações</h4>
         <ul>
-          <li>Licenciatura em Educação - Universidade Save</li>
+          <li>Licenciatura Contabilidade e Auditoria- Universidade São Tomás de Moçambique</li>
           <li>Mestrado em Administração e Gestão Escolar - USTM</li>
           <li>Certificado em Metodologias de Ensino - UP</li>
         </ul>
@@ -976,6 +975,7 @@ input, button {
           <li>Matemática (Ensino Primário e Secundário)</li>
           <li>Física (Ensino Secundário)</li>
           <li>Química (Ensino Secundário)</li>
+          <li>Contabilidade</li>
         </ul>
       </div>
     </div>
@@ -1095,7 +1095,7 @@ input, button {
         </thead>
         <tbody>
           <tr>
-            <td>Ana Maria Santos</td>
+            <td>Ana Maria</td>
             <td>8ª Classe</td>
             <td>15/03/2024</td>
             <td class="status-paid">Em dia</td>
@@ -1370,6 +1370,7 @@ document.getElementById('searchBtn').addEventListener('click', function() {
 
   const students = [
     'Ana Maria Santos',
+    'Ana Maria', 
     'João Pedro Silva',
     'Carlos Manuel',
     'Maria Fernanda',
