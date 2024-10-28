@@ -265,7 +265,6 @@ footer {
   z-index: 101;
 }
 
-/* Add to existing CSS */
 .modal {
   display: none;
   position: fixed;
@@ -283,9 +282,9 @@ footer {
   padding: 30px;
   border-radius: 8px;
   max-width: 800px;
-  max-height: 80vh; /* Limit height to 80% of viewport height */
-  overflow-y: auto; /* Enable vertical scrolling */
-  padding-right: 20px; /* Add padding for scrollbar */
+  max-height: 80vh; 
+  overflow-y: auto; 
+  padding-right: 20px; 
   animation: modalSlideIn 0.3s ease;
 }
 
@@ -437,44 +436,44 @@ footer {
     max-width: 100%;
     padding: 0 10px;
   }
-  
+
   .news-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
+
   .slider {
     height: 300px;
   }
-  
+
   .top-bar .container {
     flex-direction: column;
     text-align: center;
     gap: 10px;
   }
-  
+
   .social-icons {
     margin-top: 5px;
   }
-  
+
   .footer-grid {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
+
   .search-container {
     width: 100%;
     margin: 10px 0;
   }
-  
+
   #searchInput {
     width: 100%;
   }
-  
+
   .student-controls {
     flex-direction: column;
   }
-  
+
   .students-table {
     display: block;
     overflow-x: auto;
@@ -485,17 +484,54 @@ footer {
   .container {
     max-width: 720px;
   }
-  
+
   .news-grid {
     grid-template-columns: repeat(2, 1fr);
   }
-  
+
   .slider {
     height: 400px;
   }
-  
+
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-menu ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  .nav-menu.active ul {
+    display: flex;
+  }
+
+  .nav-menu li {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav-menu a {
+    padding: 15px 20px;
+    width: 100%;
+    display: block;
+  }
+
+  .search-container {
+    width: 100%;
+    margin: 10px 0;
+    justify-content: center;
   }
 }
 
@@ -503,15 +539,15 @@ footer {
   .container {
     max-width: 1200px;
   }
-  
+
   .news-grid {
     grid-template-columns: repeat(3, 1fr);
   }
-  
+
   .slider {
     height: 500px;
   }
-  
+
   .footer-grid {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -577,7 +613,6 @@ input, button {
   margin: 8px 0;
 }
 
-/* Scrollbar styles */
 .modal-content::-webkit-scrollbar {
   width: 8px;
 }
@@ -1293,24 +1328,23 @@ document.addEventListener('DOMContentLoaded', function() {
   const navList = document.querySelector('.nav-menu ul');
   
   function checkScreenSize() {
-    if (window.innerWidth > 991) {
-      navList.style.display = 'flex';
-      navMenu.classList.remove('active');
+    if (window.innerWidth <= 991) {
+      navList.style.display = 'none';
+      menuToggle.style.display = 'block';
     } else {
-      if (!navMenu.classList.contains('active')) {
-        navList.style.display = 'none';
-      }
+      navList.style.display = 'flex';
+      menuToggle.style.display = 'none';
+      navMenu.classList.remove('active');
     }
   }
   
   checkScreenSize();
-  
   window.addEventListener('resize', checkScreenSize);
   
   menuToggle.addEventListener('click', function(e) {
     e.stopPropagation();
     navMenu.classList.toggle('active');
-    navList.style.display = navList.style.display === 'flex' ? 'none' : 'flex';
+    navList.style.display = navMenu.classList.contains('active') ? 'flex' : 'none';
   });
   
   document.addEventListener('click', function(e) {
@@ -1486,7 +1520,7 @@ function populateDadosTable() {
   // Sample data - in a real application, this would come from a database
   const months = ['01', '02', '03'];
   const students = [
-    {name: 'Ana Maria Santos', course: '12ª Classe', value: '3.000 MZN'},
+    {name: 'Ana Maria Santos', course: '8ª Classe', value: '3.000 MZN'},
     {name: 'João Pedro Silva', course: '10ª Classe', value: '3.500 MZN'},
     // Add more students as needed
   ];
