@@ -903,10 +903,12 @@ input, button {
           </tr>
           <tr>
             <td>Informática Básica</td>
+            <td>Word, Excel, Programas básico</td>
             <td>3.000 MZN</td>
           </tr>
           <tr>
             <td>Informática Avançada</td>
+            <td>Excel Avançado, Word Avançado, Desenvolver de Aplicativo, Email</td>
             <td>3.500 MZN</td>
           </tr>
         </tbody>
