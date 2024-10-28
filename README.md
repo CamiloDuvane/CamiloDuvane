@@ -1,4 +1,4 @@
-<html><head><base href="https://camiloduvane.github.io/CamiloDuvane/">
+<html><head><base href="https://ustm.ac.mz">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>CWD - Camilo Wiliamo Duvane</title>
@@ -56,60 +56,76 @@ body {
   padding: 15px 0;
   position: relative;
   z-index: 100;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .nav-menu ul {
   list-style: none;
   display: flex;
   justify-content: center;
-  flex-direction: row;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
   margin: 0;
   padding: 0;
+  flex-wrap: wrap;
 }
 
 .nav-menu li {
   margin: 0;
+  position: relative;
 }
 
 .nav-menu a {
   color: var(--dark);
   text-decoration: none;
-  font-weight: bold;
-  padding: 10px 15px;
-  transition: color 0.3s ease;
+  font-weight: 500;
+  padding: 10px 20px;
+  transition: all 0.3s ease;
   display: block;
+  border-radius: 25px;
+  font-size: 15px;
 }
 
 .nav-menu a:hover {
-  color: var(--secondary);
+  color: white;
+  background: var(--primary);
+  transform: translateY(-2px);
 }
 
 .search-container {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 10px;
+  margin-left: 20px;
 }
 
 #searchInput {
-  padding: 5px 10px;
-  border: 1px solid var(--primary);
-  border-radius: 4px;
+  padding: 8px 15px;
+  border: 2px solid var(--primary);
+  border-radius: 20px;
   width: 200px;
+  transition: all 0.3s ease;
+}
+
+#searchInput:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,102,204,0.3);
+  width: 220px;
 }
 
 #searchBtn {
   background: var(--primary);
   color: white;
   border: none;
-  padding: 6px 12px;
-  border-radius: 4px;
+  padding: 8px 20px;
+  border-radius: 20px;
   cursor: pointer;
+  transition: all 0.3s ease;
 }
 
 #searchBtn:hover {
   background: var(--secondary);
+  transform: translateY(-2px);
 }
 
 .slider {
@@ -1470,7 +1486,7 @@ function populateDadosTable() {
   // Sample data - in a real application, this would come from a database
   const months = ['01', '02', '03'];
   const students = [
-    {name: 'Ana Maria Santos', course: '8ª Classe', value: '3.000 MZN'},
+    {name: 'Ana Maria Santos', course: '12ª Classe', value: '3.000 MZN'},
     {name: 'João Pedro Silva', course: '10ª Classe', value: '3.500 MZN'},
     // Add more students as needed
   ];
