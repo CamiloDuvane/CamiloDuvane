@@ -1516,7 +1516,6 @@ function populateDadosTable() {
   tbody.innerHTML = ''; // Clear existing rows
   
   // Sample data - in a real application, this would come from a database
-  const months = ['01', '02', '03'];
   const students = [
     {name: 'Ana Maria Santos', course: '8ª Classe', value: '3.000 MZN'},
     {name: 'João Pedro Silva', course: '10ª Classe', value: '3.500 MZN'},
