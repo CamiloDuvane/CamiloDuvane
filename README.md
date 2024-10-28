@@ -1523,6 +1523,8 @@ function populateDadosTable() {
     // Add more students as needed
   ];
 
+
+function getWeightedPaymentStatus() {  
   students.forEach(student => {
     months.forEach(month => {
       const row = document.createElement('tr');
