@@ -694,7 +694,6 @@ input, button {
     </div>
     <div class="social-icons">
       <a href="https://facebook.com/camilowilliam.duvane"><i class="fab fa-facebook"></i></a>
-      <a href="https://twitter.com/camilowilliam.duvane"><i class="fab fa-twitter"></i></a>
       <a href="https://www.instagram.com/cwd_record/"><i class="fab fa-instagram"></i></a>
     </div>
   </div>
@@ -776,7 +775,7 @@ input, button {
       <div class="news-content">
         <h3>Processo de Admissão 2024</h3>
         <p>Informações detalhadas sobre o processo de admissão para novos estudantes. Descubra os cursos disponíveis, requisitos e prazos importantes.</p>
-        <a href="https://ustm.ac.mz/admissao" class="btn">Saiba mais</a>
+        <a href="https://camiloduvane.github.io/Leitura/" class="btn">Saiba mais</a>
       </div>
     </article>
     
@@ -789,7 +788,7 @@ input, button {
       <div class="news-content">
         <h3>Pesquisa e Inovação</h3>
         <p>Conheça nossos projetos inovadores e pesquisas em desenvolvimento. Participe de iniciativas que estão moldando o futuro.</p>
-        <a href="https://ustm.ac.mz/pesquisa" class="btn">Saiba mais</a>
+        <a href="https://camiloduvane.github.io/Leitura/" class="btn">Saiba mais</a>
       </div>
     </article>
     
@@ -832,7 +831,6 @@ input, button {
         <h4>Redes Sociais</h4>
         <div class="social-icons">
           <a href="https://facebook.com/camilowilliam.duvane">Facebook</a>
-          <a href="https://twitter.com/camilowilliam.duvane">Twitter</a>
           <a href="https://www.instagram.com/cwd_record/">Instagram</a>
         </div>
       </div>
@@ -875,27 +873,12 @@ input, button {
         </thead>
         <tbody>
           <tr>
-            <td>2ª Classe</td>
+            <td>2ª - 4ª Classe</td>
             <td>Português, Matemática, Ciências Naturais</td>
             <td>1.500 MZN</td>
           </tr>
           <tr>
-            <td>3ª Classe</td>
-            <td>Português, Matemática, Ciências Naturais</td>
-            <td>1.500 MZN</td>
-          </tr>
-          <tr>
-            <td>4ª Classe</td>
-            <td>Português, Matemática, Ciências Naturais</td>
-            <td>1.800 MZN</td>
-          </tr>
-          <tr>
-            <td>5ª Classe</td>
-            <td>Português, Matemática, Ciências Naturais, Inglês</td>
-            <td>2.000 MZN</td>
-          </tr>
-          <tr>
-            <td>6ª Classe</td>
+            <td>5ª - 6ª Classe</td>
             <td>Português, Matemática, Ciências Naturais, Inglês</td>
             <td>2.000 MZN</td>
           </tr>
@@ -912,6 +895,18 @@ input, button {
           <tr>
             <td>10ª - 12ª Classe</td>
             <td>Português, Matemática, Física, Química, Biologia, Inglês</td>
+            <td>3.500 MZN</td>
+          </tr>
+          <tr>
+            <td> Inglês</td>
+            <td> 3.000 MZN</td>
+          </tr>
+          <tr>
+            <td>Informática Básica</td>
+            <td>3.000 MZN</td>
+          </tr>
+          <tr>
+            <td>Informática Avançada</td>
             <td>3.500 MZN</td>
           </tr>
         </tbody>
@@ -939,8 +934,8 @@ input, button {
         <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
           <h3 style="color: var(--secondary); margin-bottom: 10px;">BIM</h3>
           <p><strong>Titular:</strong> Camilo Wiliamo Duvane</p>
-          <p><strong>Nº da Conta:</strong> 9876543210</p>
-          <p><strong>NIB:</strong> 000100009876543210157</p>
+          <p><strong>Nº da Conta:</strong> 293331493</p>
+          <p><strong>NIB:</strong> 00010000293331493157</p>
         </div>
         
         <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
