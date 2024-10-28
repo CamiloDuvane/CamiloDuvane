@@ -1518,14 +1518,13 @@ function populateDadosTable() {
   // Sample data - in a real application, this would come from a database
   const months = ['01', '02', '03', '04','05','06','07','08','09','10','11','12'];
   const students = [
-    {name: 'Ana Maria Santos', course: '8ª Classe', status: 'paid', value: '3.000 MZN'},
-    {name: 'João Pedro Silva', course: '10ª Classe', value: '3.500 MZN'},
+    {name: 'Ana Maria', course: '9ª Classe', status: 'paid', value: '3.000 MZN'},
+    {name: 'Pedro Silva', course: '10ª Classe', value: '3.500 MZN'},
     // Add more students as needed
   ];
 
   students.forEach(student => {
     months.forEach(month => {
-      const paid = Math.random() > 0.3; // Random payment status for demo
       const row = document.createElement('tr');
       row.innerHTML = `
         <td>${student.name}</td>
