@@ -690,6 +690,9 @@ input, button {
   </div>
 </nav>
 
+
+
+
 <div class="slider">
   <div class="slide active">
     <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 1" width="1200" height="500">
