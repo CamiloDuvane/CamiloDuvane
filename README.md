@@ -729,12 +729,12 @@ input, button {
       <svg width="100%" height="200">
         <rect width="100%" height="100%" fill="#f0f0f0"/>
         <text x="50%" y="50%" text-anchor="middle" fill="#333" font-size="24">Admissão</text>
-        <text x="50%" y="80%" text-anchor="middle" fill="#666" font-size="16">2024</text>
+        <text x="50%" y="80%" text-anchor="middle" fill="#666" font-size="16">2025</text>
       </svg>
       <div class="news-content">
-        <h3>Processo de Admissão 2024</h3>
-        <p>Informações detalhadas sobre o processo de admissão para novos estudantes. Descubra os cursos disponíveis, requisitos e prazos importantes.</p>
-        <a href="https://ustm.ac.mz/admissao" class="btn">Saiba mais</a>
+        <h3>Processo de Admissão 2025</h3>
+        <p>Informações detalhadas sobre o processo de admissão para novos estudantes. Descubra os cursos disponíveis, requisitos, Mesalidades e prazos importantes.</p>
+        <a href="https://camiloduvane.github.io/CamiloDuvane/#sobre" class="btn">Saiba mais</a>
       </div>
     </article>
     
