@@ -1053,7 +1053,15 @@ input, button {
           </tr>
         </thead>
         <tbody>
-         
+          <tr>
+            <td>Ana Maria</td>
+            <td>Informatica</td>
+            <td>15/03/2024</td>
+            <td class="status-paid">Em dia</td>
+            <td>3.000 MZN</td>
+          </tr>
+          </tr>
+        </tbody>
       </table>
     </div>
   </div>
@@ -1099,7 +1107,7 @@ input, button {
           <tr>
             <td>Ana Maria Miguel Malate</td>
             <td>Informatica</td>
-            <td>Março</td>
+            <td>03</td>
             <td>15/10/2024</td>
             <td>3.000 MZN</td>
             <td class="status-pending">Em divida</td>
@@ -1348,7 +1356,7 @@ document.getElementById('searchBtn').addEventListener('click', function() {
   ];
 
   const students = [
-    'Ana Maria Miguel Malate',
+    'Ana Maria',
     'João Pedro Silva',
     'Carlos Manuel',
     'Maria Fernanda',
@@ -1506,7 +1514,13 @@ function populateDadosTable() {
   const tbody = document.querySelector('#dadosModal .students-table tbody');
   tbody.innerHTML = ''; // Clear existing rows
   
+  // Actual student data from the existing list
+  const students = [
+    {name: 'Ana Maria Malate', course: 'Informatica', months: 'Fevereiro',  data: '15/01/2024', value: '3.000 MZN', status: 'Em divida'},
 
+  ];
+
+  const months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']; // First quarter
 
   students.forEach(student => {
     const row = document.createElement('tr');
