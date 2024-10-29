@@ -279,14 +279,27 @@ footer {
 
 .modal-content {
   background-color: white;
-  margin: 15% auto;
+  margin: 0 auto;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 0 0 8px 8px; 
   max-width: 800px;
-  max-height: 80vh; /* Limit height to 80% of viewport height */
-  overflow-y: auto; /* Enable vertical scrolling */
-  padding-right: 20px; /* Add padding for scrollbar */
-  animation: modalSlideIn 0.3s ease;
+  max-height: 90vh; 
+  overflow-y: auto; 
+  padding-right: 20px; 
+  position: relative;
+  top: 0;
+  animation: modalSlideDown 0.3s ease;
+}
+
+@keyframes modalSlideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .close-modal {
@@ -296,17 +309,7 @@ footer {
   font-size: 24px;
   cursor: pointer;
   color: var(--dark);
-}
-
-@keyframes modalSlideIn {
-  from {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
+  z-index: 1000;
 }
 
 .modal-content h2 {
@@ -860,12 +863,12 @@ input, button {
           </tr>
           <tr>
             <td>Inglês</td>
-            <td>Leirura, Escrita, Interpretação, Verbos</td>
+            <td>Leitura, Escrita, Interpretação, Verbos</td>
             <td>2.500 MZN</td>
           </tr>
           <tr>
             <td>Informatica</td>
-            <td>Básica, Intermedio, Avansado</td>
+            <td>Básica, Intermediário, Avançado</td>
             <td>3.000 MZN</td>
           </tr>
         </tbody>
@@ -886,8 +889,8 @@ input, button {
         <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
           <h3 style="color: var(--secondary); margin-bottom: 10px;">BCI</h3>
           <p><strong>Titular:</strong> Camilo Wiliamo Duvane</p>
-          <p><strong>Nº da Conta:</strong> Em Actualização</p>
-          <p><strong>NIB:</strong> Em Actualização</p>
+          <p><strong>Nº da Conta:</strong> Em Atualização</p>
+          <p><strong>NIB:</strong> Em Atualização</p>
         </div>
         
         <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
@@ -1050,147 +1053,7 @@ input, button {
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>Ana Maria</td>
-            <td>Informatica</td>
-            <td>15/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>3.000 MZN</td>
-          </tr>
-          <tr>
-            <td>João Pedro Silva</td>
-            <td>10ª Classe</td>
-            <td>01/02/2024</td>
-            <td class="status-pending">Em dívida</td>
-            <td>3.500 MZN</td>
-          </tr>
-          <tr>
-            <td>Carlos Manuel</td>
-            <td>7ª Classe</td>
-            <td>10/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>2.500 MZN</td>
-          </tr>
-          <tr>
-            <td>Maria Fernanda</td>
-            <td>12ª Classe</td>
-            <td>05/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>3.500 MZN</td>
-          </tr>
-          <tr>
-            <td>António José</td>
-            <td>9ª Classe</td>
-            <td>01/02/2024</td>
-            <td class="status-pending">Em dívida</td>
-            <td>3.000 MZN</td>
-          </tr>
-          <tr>
-            <td>Isabel Santos</td>
-            <td>6ª Classe</td>
-            <td>15/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>2.000 MZN</td>
-          </tr>
-          <tr>
-            <td>Pedro Miguel</td>
-            <td>11ª Classe</td>
-            <td>01/02/2024</td>
-            <td class="status-pending">Em dívida</td>
-            <td>3.500 MZN</td>
-          </tr>
-          <tr>
-            <td>Sofia Costa</td>
-            <td>5ª Classe</td>
-            <td>12/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>2.000 MZN</td>
-          </tr>
-          <tr>
-            <td>Manuel Silva</td>
-            <td>8ª Classe</td>
-            <td>01/02/2024</td>
-            <td class="status-pending">Em dívida</td>
-            <td>3.000 MZN</td>
-          </tr>
-          <tr>
-            <td>Catarina Oliveira</td>
-            <td>10ª Classe</td>
-            <td>15/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>3.500 MZN</td>
-          </tr>
-          <tr>
-            <td>Ricardo Santos</td>
-            <td>4ª Classe</td>
-            <td>01/02/2024</td>
-            <td class="status-pending">Em dívida</td>
-            <td>1.800 MZN</td>
-          </tr>
-          <tr>
-            <td>Mariana Costa</td>
-            <td>7ª Classe</td>
-            <td>10/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>2.500 MZN</td>
-          </tr>
-          <tr>
-            <td>Francisco Pereira</td>
-            <td>12ª Classe</td>
-            <td>01/02/2024</td>
-            <td class="status-pending">Em dívida</td>
-            <td>3.500 MZN</td>
-          </tr>
-          <tr>
-            <td>Teresa Almeida</td>
-            <td>6ª Classe</td>
-            <td>15/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>2.000 MZN</td>
-          </tr>
-          <tr>
-            <td>Joaquim Ferreira</td>
-            <td>9ª Classe</td>
-            <td>01/02/2024</td>
-            <td class="status-pending">Em dívida</td>
-            <td>3.000 MZN</td>
-          </tr>
-          <tr>
-            <td>Beatriz Lima</td>
-            <td>11ª Classe</td>
-            <td>12/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>3.500 MZN</td>
-          </tr>
-          <tr>
-            <td>Daniel Martins</td>
-            <td>5ª Classe</td>
-            <td>01/02/2024</td>
-            <td class="status-pending">Em dívida</td>
-            <td>2.000 MZN</td>
-          </tr>
-          <tr>
-            <td>Luísa Rodrigues</td>
-            <td>8ª Classe</td>
-            <td>15/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>3.000 MZN</td>
-          </tr>
-          <tr>
-            <td>Paulo Soares</td>
-            <td>10ª Classe</td>
-            <td>01/02/2024</td>
-            <td class="status-pending">Em dívida</td>
-            <td>3.500 MZN</td>
-          </tr>
-          <tr>
-            <td>Marta Santos</td>
-            <td>7ª Classe</td>
-            <td>10/03/2024</td>
-            <td class="status-paid">Em dia</td>
-            <td>2.500 MZN</td>
-          </tr>
-        </tbody>
+         
       </table>
     </div>
   </div>
@@ -1234,12 +1097,12 @@ input, button {
         </thead>
         <tbody>
           <tr>
-            <td>Ana Maria Miguel</td>
+            <td>Ana Maria Miguel Malate</td>
             <td>Informatica</td>
-            <td>03</td>
+            <td>Março</td>
             <td>15/10/2024</td>
             <td>3.000 MZN</td>
-            <td class="status-paid">Pago</td>
+            <td class="status-pending">Em divida</td>
           </tr>
           <tr>
             <td>João Pedro Silva</td>
@@ -1485,7 +1348,7 @@ document.getElementById('searchBtn').addEventListener('click', function() {
   ];
 
   const students = [
-    'Ana Maria',
+    'Ana Maria Miguel Malate',
     'João Pedro Silva',
     'Carlos Manuel',
     'Maria Fernanda',
@@ -1560,18 +1423,30 @@ document.addEventListener('DOMContentLoaded', function() {
   const inicioLink = document.querySelector('a[href="#home"]');
   const closeModal = document.querySelector('.close-modal');
   
+  // Function to show modal from top
+  function showModalFromTop(modal) {
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden'; 
+    const modalContent = modal.querySelector('.modal-content');
+    modalContent.style.transform = 'translateY(0)';
+    window.scrollTo(0, 0); 
+  }
+
+  // Event listeners for each link
   inicioLink.addEventListener('click', function(e) {
     e.preventDefault();
-    welcomeModal.style.display = 'block';
+    showModalFromTop(welcomeModal);
   });
   
   closeModal.addEventListener('click', function() {
     welcomeModal.style.display = 'none';
+    document.body.style.overflow = ''; 
   });
   
   window.addEventListener('click', function(e) {
     if (e.target === welcomeModal) {
       welcomeModal.style.display = 'none';
+      document.body.style.overflow = ''; 
     }
   });
   
@@ -1580,20 +1455,22 @@ document.addEventListener('DOMContentLoaded', function() {
   
   cursosLink.addEventListener('click', function(e) {
     e.preventDefault();
-    coursesModal.style.display = 'block';
+    showModalFromTop(coursesModal);
   });
 
   // Close modal when clicking X or outside
   document.querySelectorAll('.close-modal').forEach(closeBtn => {
     closeBtn.addEventListener('click', function() {
-      const modalId = this.getAttribute('data-modal');
-      document.getElementById(modalId).style.display = 'none';
+      const modal = this.closest('.modal');
+      modal.style.display = 'none';
+      document.body.style.overflow = ''; 
     });
   });
 
   window.addEventListener('click', function(e) {
     if (e.target.classList.contains('modal')) {
       e.target.style.display = 'none';
+      document.body.style.overflow = ''; 
     }
   });
 
@@ -1602,7 +1479,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   sobreLink.addEventListener('click', function(e) {
     e.preventDefault();
-    sobreModal.style.display = 'block';
+    showModalFromTop(sobreModal);
   });
 
   const dadosLink = document.querySelector('a[href="#dados"]');
@@ -1610,8 +1487,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   dadosLink.addEventListener('click', function(e) {
     e.preventDefault();
-    dadosModal.style.display = 'block';
-    populateDadosTable();
+    showModalFromTop(dadosModal);
   });
 });
 
@@ -1630,31 +1506,7 @@ function populateDadosTable() {
   const tbody = document.querySelector('#dadosModal .students-table tbody');
   tbody.innerHTML = ''; // Clear existing rows
   
-  // Actual student data from the existing list
-  const students = [
-    {name: 'Ana Maria Malate', course: 'Informatica', months: 'Fevereiro',  data: '15/02/2024', value: '3.000 MZN', status: 'Em divida'},
-    {name: 'Pedro Marcelino', course: 'Informatica', months: 'Janeiro',  data: '15/01/2024', value: '3.000 MZN', status: 'Em divida'},
-    {name: 'Ilidio Marcelino', course: 'Informatica',  months: 'Janeiro',  data: '15/01/2024', value: '3.000 MZN', status: 'Pago'},
-    {name: 'Maria Fernanda', course: '12ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '2.000 MZN', status: 'Pago'},
-    {name: 'António José', course: '9ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '1.500 MZN', status: 'Pago'},
-    {name: 'Isabel Santos', course: '6ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '750 MZN', status: 'Pago'},
-    {name: 'Pedro Miguel', course: '11ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '2.000 MZN', status: 'Pago'},
-    {name: 'Sofia Costa', course: '5ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '750 MZN', status: 'Pago'},
-    {name: 'Manuel Silva', course: '8ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '1.500 MZN', status: 'Pago'},
-    {name: 'Catarina Oliveira', course: '10ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '2.000 MZN', status: 'Pago'},
-    {name: 'Ricardo Santos', course: '4ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '700 MZN', status: 'Pago'},
-    {name: 'Mariana Costa', course: '7ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '1.500 MZN', status: 'Pago'},
-    {name: 'Francisco Pereira', course: '12ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '2.000 MZN', status: 'Pago'},
-    {name: 'Teresa Almeida', course: '6ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '750 MZN', status: 'Pago'},
-    {name: 'Joaquim Ferreira', course: '9ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '1.500 MZN', status: 'Pago'},
-    {name: 'Beatriz Lima', course: '11ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '2.000 MZN', status: 'Pago'},
-    {name: 'Daniel Martins', course: '5ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '750 MZN', status: 'Pago'},
-    {name: 'Luísa Rodrigues', course: '8ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '2.500 MZN', status: 'Pago'},
-    {name: 'Paulo Soares', course: '10ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '2.000 MZN', status: 'Pago'},
-    {name: 'Marta Santos', course: '7ª Classe',  months: 'Janeiro',  data: '15/01/2024', value: '1.500 MZN', status: 'Pago'}
-  ];
 
-  const months = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12']; // First quarter
 
   students.forEach(student => {
     const row = document.createElement('tr');
