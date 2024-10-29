@@ -923,104 +923,103 @@ input, button {
       <div class="certifications">
         <h4>Certificações</h4>
         <ul>
-          <li>Licenciatura em Educação - Universidade Save</li>
-          <li>Mestrado em Administração e Gestão Escolar - USTM</li>
-          <li>Certificado em Metodologias de Ensino - UP</li>
+          <li>Técnico Profissional em Contabilidade e Gestão - IEG</li>
+          <li>Licenciatura em Contabilidade e Auditoria - USTM</li>
         </ul>
       </div>
       
       <div class="courses-taught">
         <h4>Cursos Ministrados</h4>
         <ul>
-          <li>Matemática (Ensino Primário e Secundário)</li>
-          <li>Física (Ensino Secundário)</li>
-          <li>Química (Ensino Secundário)</li>
+          <li>Informática (Básica, Intermediária e Avançada)</li>
+          <li>Contabilidade (Básica, Geral, Financeira)</li>
+          <li>AGPI (Análise e Gestão de Projectos de Investimentos)</li>
         </ul>
       </div>
     </div>
 
     <div class="team-member">
-      <h3>Pedro Silva</h3>
+      <h3>A Actualizar</h3>
       <h4 style="color: var(--primary)">Diretor Financeiro</h4>
       <div class="member-details">
-        <p><strong>Contato:</strong> +258 84 555 1234</p>
-        <p><strong>Email:</strong> joao.silva@email.com</p>
+        <p><strong>Contato:</strong> A Actualizar</p>
+        <p><strong>Email:</strong> A Actualizar</p>
         <div class="social-links">
-          <a href="https://facebook.com/joao.silva">Facebook</a>
-          <a href="https://linkedin.com/in/joaosilva">LinkedIn</a>
+          <a href="https://facebook.com/A Actualizar">Facebook</a>
+          <a href="https://linkedin.com/A Actualizar">LinkedIn</a>
         </div>
       </div>
       
       <div class="certifications">
         <h4>Certificações</h4>
         <ul>
-          <li>Licenciatura em Matemática - UEM</li>
-          <li>MBA em Gestão Financeira</li>
+          <li>A Actualizar</li>
+          <li>A Actualizar</li>
         </ul>
       </div>
       
       <div class="courses-taught">
         <h4>Cursos Ministrados</h4>
         <ul>
-          <li>Matemática (8ª - 12ª Classe)</li>
-          <li>Física (10ª - 12ª Classe)</li>
+          <li>A Actualizar</li>
+          <li>A Actualizar</li>
         </ul>
       </div>
     </div>
 
     <div class="team-member">
-      <h3>Ana Maria Santos</h3>
+      <h3>A Actualizar</h3>
       <h4 style="color: var(--primary)">Secretária</h4>
       <div class="member-details">
-        <p><strong>Contato:</strong> +258 84 666 5678</p>
-        <p><strong>Email:</strong> ana.santos@email.com</p>
+        <p><strong>Contato:</strong> A Actualizar</p>
+        <p><strong>Email:</strong> A Actualizar</p>
         <div class="social-links">
-          <a href="https://facebook.com/ana.santos">Facebook</a>
-          <a href="https://instagram.com/anasantos">Instagram</a>
+          <a href="https://facebook.com/A Actualizar">Facebook</a>
+          <a href="https://instagram.com/A Actualizar">Instagram</a>
         </div>
       </div>
       
       <div class="certifications">
         <h4>Certificações</h4>
         <ul>
-          <li>Licenciatura em Línguas - UP</li>
-          <li>Certificação em Gestão Administrativa</li>
+          <li>A Actualizar</li>
+          <li>A Actualizar</li>
         </ul>
       </div>
       
       <div class="courses-taught">
         <h4>Cursos Ministrados</h4>
         <ul>
-          <li>Português (2ª - 7ª Classe)</li>
-          <li>Inglês (5ª - 9ª Classe)</li>
+          <li>A Actualizar</li>
+          <li>A Actualizar</li>
         </ul>
       </div>
     </div>
 
     <div class="team-member">
-      <h3>Carlos Manuel Nunes</h3>
+      <h3>A Actualizar</h3>
       <div class="member-details">
-        <p><strong>Contato:</strong> +258 84 777 9012</p>
-        <p><strong>Email:</strong> carlos.nunes@email.com</p>
+        <p><strong>Contato:</strong> A Actualizar</p>
+        <p><strong>Email:</strong> A Actualizar</p>
         <div class="social-links">
-          <a href="https://facebook.com/carlos.nunes">Facebook</a>
-          <a href="https://twitter.com/carlosnunes">Twitter</a>
+          <a href="https://facebook.com/A Actualizar">Facebook</a>
+          <a href="https://twitter.com/A Actualizar">Twitter</a>
         </div>
       </div>
 
       <div class="certifications">
         <h4>Certificações</h4>
         <ul>
-          <li>Licenciatura em Biologia - UEM</li>
-          <li>Pós-graduação em Ensino de Ciências</li>
+          <li>A Actualizar</li>
+          <li>A Actualizar</li>
         </ul>
       </div>
 
       <div class="courses-taught">
         <h4>Cursos Ministrados</h4>
         <ul>
-          <li>Biologia (8ª - 12ª Classe)</li>
-          <li>Química (8ª - 12ª Classe)</li>
+          <li>A Actualizar</li>
+          <li>A Actualizar</li>
         </ul>
       </div>
     </div>
@@ -1110,14 +1109,14 @@ input, button {
             <td>Outubro</td>
             <td>29/10/2024</td>
             <td>3.000 MZN</td>
-            <td class="status-pending">Em divida</td>
+            <td class="status-pending">Divida</td>
           </tr>
           <tr>
             <td>Pedro Silva</td>
-            <td>10ª Classe</td>
+            <td>12ª Classe</td>
             <td>Outubro</td>
             <td>29/10/2024</td>
-            <td>3.500 MZN</td>
+            <td>2.000 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
@@ -1153,7 +1152,7 @@ input, button {
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
-            <td>Pedro Miguel</td>
+            <td>Ilidio Marcelino</td>
             <td>11ª Classe</td>
             <td>Outubro</td>
             <td>29/10/2024</td>
