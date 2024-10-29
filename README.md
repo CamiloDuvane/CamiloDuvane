@@ -764,7 +764,7 @@ input, button {
   <div class="container">
     <div class="footer-grid">
       <div>
-        <h4>Inscrição</h4>
+        <h4>Localização</h4>
         <p>Matola, 1° do Maio rua 213</p>
         <p>Maputo, Moçambique</p>
         <p>Tel: +258 84 24 79 404</p>
@@ -883,8 +883,8 @@ input, button {
         <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
           <h3 style="color: var(--secondary); margin-bottom: 10px;">BCI</h3>
           <p><strong>Titular:</strong> Camilo Wiliamo Duvane</p>
-          <p><strong>Nº da Conta:</strong> Em Atualização</p>
-          <p><strong>NIB:</strong> Em Atualização</p>
+          <p><strong>Nº da Conta:</strong> Em Atualização...</p>
+          <p><strong>NIB:</strong> Em Atualização...</p>
         </div>
         
         <div style="background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
@@ -933,40 +933,40 @@ input, button {
     </div>
 
     <div class="team-member">
-      <h3>A Actualizar</h3>
+      <h3>A Actualizar...</h3>
       <h4 style="color: var(--primary)">Diretor Financeiro</h4>
       <div class="member-details">
-        <p><strong>Contato:</strong> A Actualizar</p>
-        <p><strong>Email:</strong> A Actualizar</p>
+        <p><strong>Contato:</strong> A Actualizar...</p>
+        <p><strong>Email:</strong> A Actualizar...</p>
         <div class="social-links">
-          <a href="https://facebook.com/A Actualizar">Facebook</a>
-          <a href="https://linkedin.com/A Actualizar">LinkedIn</a>
+          <a href="https://facebook.com/A Actualizar...">Facebook</a>
+          <a href="https://linkedin.com/A Actualizar...">LinkedIn</a>
         </div>
       </div>
       
       <div class="certifications">
         <h4>Certificações</h4>
         <ul>
-          <li>A Actualizar</li>
-          <li>A Actualizar</li>
+          <li>A Actualizar...</li>
+          <li>A Actualizar...</li>
         </ul>
       </div>
       
       <div class="courses-taught">
         <h4>Cursos Ministrados</h4>
         <ul>
-          <li>A Actualizar</li>
-          <li>A Actualizar</li>
+          <li>A Actualizar...</li>
+          <li>A Actualizar...</li>
         </ul>
       </div>
     </div>
 
     <div class="team-member">
-      <h3>A Actualizar</h3>
+      <h3>A Actualizar...</h3>
       <h4 style="color: var(--primary)">Secretária</h4>
       <div class="member-details">
-        <p><strong>Contato:</strong> A Actualizar</p>
-        <p><strong>Email:</strong> A Actualizar</p>
+        <p><strong>Contato:</strong> A Actualizar...</p>
+        <p><strong>Email:</strong> A Actualizar...</p>
         <div class="social-links">
           <a href="https://facebook.com/A Actualizar">Facebook</a>
           <a href="https://instagram.com/A Actualizar">Instagram</a>
@@ -976,25 +976,25 @@ input, button {
       <div class="certifications">
         <h4>Certificações</h4>
         <ul>
-          <li>A Actualizar</li>
-          <li>A Actualizar</li>
+          <li>A Actualizar...</li>
+          <li>A Actualizar...</li>
         </ul>
       </div>
       
       <div class="courses-taught">
         <h4>Cursos Ministrados</h4>
         <ul>
-          <li>A Actualizar</li>
-          <li>A Actualizar</li>
+          <li>A Actualizar...</li>
+          <li>A Actualizar...</li>
         </ul>
       </div>
     </div>
 
     <div class="team-member">
-      <h3>A Actualizar</h3>
+      <h3>A Actualizar...</h3>
       <div class="member-details">
-        <p><strong>Contato:</strong> A Actualizar</p>
-        <p><strong>Email:</strong> A Actualizar</p>
+        <p><strong>Contato:</strong> A Actualizar...</p>
+        <p><strong>Email:</strong> A Actualizar...</p>
         <div class="social-links">
           <a href="https://facebook.com/A Actualizar">Facebook</a>
           <a href="https://twitter.com/A Actualizar">Twitter</a>
@@ -1004,16 +1004,16 @@ input, button {
       <div class="certifications">
         <h4>Certificações</h4>
         <ul>
-          <li>A Actualizar</li>
-          <li>A Actualizar</li>
+          <li>A Actualizar...</li>
+          <li>A Actualizar...</li>
         </ul>
       </div>
 
       <div class="courses-taught">
         <h4>Cursos Ministrados</h4>
         <ul>
-          <li>A Actualizar</li>
-          <li>A Actualizar</li>
+          <li>A Actualizar...</li>
+          <li>A Actualizar...</li>
         </ul>
       </div>
     </div>
@@ -1098,7 +1098,7 @@ input, button {
         </thead>
         <tbody>
           <tr>
-            <td>Ana Maria Miguel Malate</td>
+            <td>Ana M. Miguel Malate</td>
             <td>Informatica</td>
             <td>Outubro</td>
             <td>29/10/2024</td>
@@ -1114,7 +1114,7 @@ input, button {
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
-            <td>Carlos Manuel</td>
+            <td>Carlos Cossa</td>
             <td>7ª Classe</td>
             <td>Outubro</td>
             <td>29/10/2024</td>
@@ -1349,8 +1349,8 @@ document.getElementById('searchBtn').addEventListener('click', function() {
   ];
 
   const students = [
-    'Ana Maria',
-    'João Pedro Silva',
+    'Ana M. Miguel Malate',
+    'Pedro Silva',
     'Carlos Manuel',
     'Maria Fernanda',
     'António José',
