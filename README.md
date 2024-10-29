@@ -648,7 +648,7 @@ input, button {
 <div class="top-bar">
   <div class="container">
     <div class="contact-info">
-      <span>+258 84 247 9404</span>
+      <span>+258 84 24 79 404</span>
       <span>camilowilliam0@gmail.com</span>
     </div>
     <div class="social-icons">
@@ -707,15 +707,6 @@ input, button {
     <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 5" width="1200" height="500">
   </div>
   <div class="slide">
-    <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 6" width="1200" height="500">
-  </div>
-  <div class="slide">
-    <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 7" width="1200" height="500">
-  </div>
-  <div class="slide">
-    <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 8" width="1200" height="500">
-  </div>
-  <div class="slide">
     <svg width="100%" height="100%" viewBox="0 0 1200 500">
       <rect width="100%" height="100%" fill="#0066cc"/>
       <text x="50%" y="50%" fill="white" font-size="48" text-anchor="middle">Bem-vindo à CWD</text>
@@ -745,9 +736,9 @@ input, button {
         <text x="50%" y="80%" text-anchor="middle" fill="#666" font-size="16">Inovação</text>
       </svg>
       <div class="news-content">
-        <h3>Pesquisa e Inovação</h3>
+        <h3>Histórias e Inovação</h3>
         <p>Conheça nossos projetos inovadores e pesquisas em desenvolvimento. Participe de iniciativas que estão moldando o futuro.</p>
-        <a href="https://ustm.ac.mz/pesquisa" class="btn">Saiba mais</a>
+        <a href="https://camiloduvane.github.io/CD/" class="btn">Saiba mais</a>
       </div>
     </article>
     
@@ -755,10 +746,10 @@ input, button {
       <svg width="100%" height="200">
         <rect width="100%" height="100%" fill="#f0f0f0"/>
         <text x="50%" y="50%" text-anchor="middle" fill="#333" font-size="24">Extensão</text>
-        <text x="50%" y="80%" text-anchor="middle" fill="#666" font-size="16">Universitária</text>
+        <text x="50%" y="80%" text-anchor="middle" fill="#666" font-size="16">Parcerias</text>
       </svg>
       <div class="news-content">
-        <h3>Extensão Universitária</h3>
+        <h3>Extensão Parcerias</h3>
         <p>Explore nossos programas de extensão e descubra como estamos impactando positivamente a comunidade através de projetos sociais.</p>
         <a href="#extensao" class="btn">Saiba mais</a>
       </div>
@@ -773,7 +764,7 @@ input, button {
         <h4>Inscrição</h4>
         <p>Matola, 1° do Maio rua 213</p>
         <p>Maputo, Moçambique</p>
-        <p>Tel: +258 84 247 9404</p>
+        <p>Tel: +258 84 24 79 404</p>
         <p>Email: camilowilliam0@gmail.com</p>
       </div>
       
@@ -782,7 +773,7 @@ input, button {
         <ul>
           <li><a href="https://camiloduvane.github.io/CD/">Biblioteca</a></li>
           <li><a href="https://camiloduvane.github.io/CWD/">Mais sobre Moçambique</a></li>
-          <li><a href="https://camiloduvane.github.io/Matlhemele2024/">Jogos de perguntas e respostas</a></li>
+          <li><a href="https://camiloduvane.github.io/MEA/">Jogos de perguntas e respostas</a></li>
         </ul>
       </div>
       
