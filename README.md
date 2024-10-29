@@ -1107,160 +1107,160 @@ input, button {
           <tr>
             <td>Ana Maria Miguel Malate</td>
             <td>Informatica</td>
-            <td>03</td>
-            <td>15/10/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.000 MZN</td>
             <td class="status-pending">Em divida</td>
           </tr>
           <tr>
-            <td>João Pedro Silva</td>
+            <td>Pedro Silva</td>
             <td>10ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Carlos Manuel</td>
             <td>7ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>2.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Maria Fernanda</td>
             <td>12ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>António José</td>
             <td>9ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.000 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Isabel Santos</td>
             <td>6ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>2.000 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Pedro Miguel</td>
             <td>11ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Sofia Costa</td>
             <td>5ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>2.000 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Manuel Silva</td>
             <td>8ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.000 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Catarina Oliveira</td>
             <td>10ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Ricardo Santos</td>
             <td>4ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>1.800 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Mariana Costa</td>
             <td>7ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>2.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Francisco Pereira</td>
             <td>12ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Teresa Almeida</td>
             <td>6ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>2.000 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Joaquim Ferreira</td>
             <td>9ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.000 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Beatriz Lima</td>
             <td>11ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Daniel Martins</td>
             <td>5ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>2.000 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Luísa Rodrigues</td>
             <td>8ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.000 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Paulo Soares</td>
             <td>10ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>3.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
           <tr>
             <td>Marta Santos</td>
             <td>7ª Classe</td>
-            <td>03</td>
-            <td>15/03/2024</td>
+            <td>Outubro</td>
+            <td>29/10/2024</td>
             <td>2.500 MZN</td>
             <td class="status-paid">Pago</td>
           </tr>
