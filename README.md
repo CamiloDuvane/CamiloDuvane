@@ -65,13 +65,13 @@ body {
   justify-content: center;
   align-items: center;
   gap: 20px;
-  margin: 0;
-  padding: 0;
+  margin: 30;
+  padding: 30;
   flex-wrap: wrap;
 }
 
 .nav-menu li {
-  margin: 0;
+  margin: 30;
   position: relative;
 }
 
