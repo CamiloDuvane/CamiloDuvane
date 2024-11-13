@@ -485,7 +485,7 @@ footer {
   }
   
   .slider {
-    height: 400px;
+    height: 40px;
   }
   
   .footer-grid {
@@ -503,7 +503,7 @@ footer {
   }
   
   .slider {
-    height: 500px;
+    height: 50px;
   }
   
   .footer-grid {
