@@ -693,29 +693,7 @@ input, button {
 
 
 
-<div class="slider">
-  <div class="slide active">
-    <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 1" width="1200" height="500">
-  </div>
-  <div class="slide">
-    <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 2" width="1200" height="500">
-  </div>
-  <div class="slide">
-    <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 3" width="1200" height="500">
-  </div>
-  <div class="slide">
-    <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 4" width="1200" height="500">
-  </div>
-  <div class="slide">
-    <img src="https://picsum.photos/500/300" alt="Foto de Camilo Wiliamo Duvane 5" width="1200" height="500">
-  </div>
-  <div class="slide">
-    <svg width="100%" height="100%" viewBox="0 0 1200 500">
-      <rect width="100%" height="100%" fill="#0066cc"/>
-      <text x="50%" y="50%" fill="white" font-size="48" text-anchor="middle">Bem-vindo à CWD</text>
-    </svg>
-  </div>
-</div>
+
 
 <main class="container">
   <section class="news-grid">
