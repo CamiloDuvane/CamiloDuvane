@@ -49,10 +49,15 @@ class Game {
     document.getElementById('view-history-btn')?.addEventListener('click', () => {
       this.showHistory();
       this.ui.showScreen('history-screen');
+      this.showPlayerRankings();
     });
 
     document.getElementById('back-to-results-btn')?.addEventListener('click', () => {
+    if (document.getElementById('results-screen').classList.contains('active')) {  
       this.ui.showScreen('results-screen');
+    } else {
+      this.ui.showScreen('welcome-screen');
+      }
     });
 
     document.getElementById('show-rankings-btn')?.addEventListener('click', () => {
