@@ -11,7 +11,6 @@ class Game {
     this.validator = new Validator(this.camilo);
     this.playerStats = this.loadPlayerStats();
     
-    this.showTopPlayers();
     this.setupEventListeners();
   }
 
@@ -56,12 +55,6 @@ class Game {
     });
 
     document.getElementById('show-rankings-btn')?.addEventListener('click', () => {
-      this.showPlayerRankings();
-    });
-
-    // Add new event listener for view ranking button
-    document.getElementById('view-ranking-btn')?.addEventListener('click', () => {
-      this.ui.showScreen('history-screen');
       this.showPlayerRankings();
     });
   }
@@ -197,33 +190,6 @@ class Game {
     stats.bestScore = Math.max(stats.bestScore, playerPoints);
 
     localStorage.setItem('playerStats', JSON.stringify(this.playerStats));
-  }
-
-  showTopPlayers() {
-    const topPlayersList = document.getElementById('top-players-list');
-    if (!topPlayersList) return;
-
-    // Convert player stats to array and sort by average points
-    const rankings = Object.entries(this.playerStats)
-      .map(([name, stats]) => ({ name, ...stats }))
-      .sort((a, b) => b.averagePoints - a.averagePoints);
-
-    // Get top 3 players
-    const topPlayers = rankings.slice(0, 3);
-
-    topPlayersList.innerHTML = topPlayers.length ? 
-      topPlayers.map((player, index) => `
-        <div class="top-player-item">
-          <div>
-            <span class="position">#${index + 1}</span>
-            <span class="name">${player.name}</span>
-          </div>
-          <div class="stats">
-            <span>Média: ${player.averagePoints} pontos</span>
-          </div>
-        </div>
-      `).join('') 
-      : '<p>Ainda não há jogadores registrados</p>';
   }
 
   showPlayerRankings() {
