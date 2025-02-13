@@ -408,7 +408,7 @@ input[type="text"] {
     flex-direction: column;
     gap: 0.25rem;
   }
-
+  
   .welcome-buttons {
     flex-direction: column;
   }

@@ -72,11 +72,11 @@ export class UI {
           <div class="history-header">
             <span>Data: ${new Date(game.date).toLocaleDateString()}</span>
             <span>Letra: ${game.letter}</span>
-            <span>Jogador: ${game.name}</span>
+            <span>Jogador: ${game.playerName}</span>
           </div>
           <div class="history-scores">
-            <span>Seus pontos: ${game.playerPoints}</span>
-            <span>Pontos do Camilo: ${game.camiloPoints}</span>
+            <span>Seus pontos: ${game.totals.player}</span>
+            <span>Pontos do Camilo: ${game.totals.camilo}</span>
           </div>
         </div>
       `).join('')}` : '<p class="no-history">Nenhum histórico disponível</p>';
@@ -116,7 +116,7 @@ export class UI {
       doc.text(`Jogo ${index + 1}: ${new Date(game.date).toLocaleDateString()} - Letra: ${game.letter}`, 14, yPosition);
       doc.setFont(undefined, 'normal');
       yPosition += 10;
-      doc.text(`Jogador: ${game.name}`, 14, yPosition);
+      doc.text(`Jogador: ${game.playerName}`, 14, yPosition);
       yPosition += 10;
 
       // Create table data for this game
@@ -142,7 +142,7 @@ export class UI {
       yPosition = doc.lastAutoTable.finalY + 20;
 
       // Add totals
-      doc.text(`Total: Você ${game.playerPoints} | Camilo ${game.camiloPoints}`, 14, yPosition);
+      doc.text(`Total: Você ${game.totals.player} | Camilo ${game.totals.camilo}`, 14, yPosition);
       yPosition += 20;
     });
 
